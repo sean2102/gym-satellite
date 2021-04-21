@@ -1,0 +1,14 @@
+time_steps: 1000000
+gamma: 0.999
+learning_rate:  0.00025
+lr_init_value: 0.0005
+lr_final_value: 0.00001
+n_steps : 1024
+noptepochs: 4
+nminibatches: 32
+lam : 0.98
+cliprange : 0.1
+ent_coef : 0.01
+vf_coef : 0.1
+cliprange_vf : -1
+seed: 10
